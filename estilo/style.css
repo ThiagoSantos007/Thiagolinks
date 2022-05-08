@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+:root{
+    --font1: 'Koulen', cursive;
+    --font2: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.595);
+   
+}
+
+ img{
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+}
+
+main {
+    margin-top: 20px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+    background-image: url("/imagens/joshua-hibbert-Pn6iimgM-wo-unsplash.jpg");
+    height: 700px;
+    width: 500px;
+    box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.421);
+}
+
+main img{
+    
+    margin: auto;
+    margin-top: 30px;
+}
+
+h2{
+    color: aliceblue;
+    font-family: var(--font1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.linkedin{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--font2);
+    margin-top: 0px;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    list-style-image: url('/imagens/linkedin.png');
+    
+    
+}
+
+
+div{
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    background-color: rgba(55, 28, 145, 0.475);
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.378);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.685);
+    
+}
+
+div:hover{
+    background-color: rgba(170, 170, 170, 0.575);
+
+}
+
+.git {
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+   list-style-image: url('/imagens/github.png');
+}
+
+.insta{
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    list-style-image: url('/imagens/instagram.png');
+}
